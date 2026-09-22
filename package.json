@@ -1,0 +1,25 @@
+{
+  "name": "multchess-root",
+  "version": "1.0.0",
+  "description": "Production-Oriented Real-Time Multiplayer Chess Application (MERN + Socket.IO + Redis)",
+  "private": true,
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "start:server": "npm start --prefix server",
+    "build:client": "npm run build --prefix client",
+    "test:server": "npm test --prefix server"
+  },
+  "keywords": [
+    "chess",
+    "mern",
+    "socket.io",
+    "redis",
+    "mongodb",
+    "real-time",
+    "matchmaking"
+  ],
+  "author": "",
+  "license": "ISC"
+}
